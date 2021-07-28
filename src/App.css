@@ -2,37 +2,48 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  background-image: url(https://pbs.twimg.com/media/EUF6KQuU0AA76xc?format=jpg&name=large);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin: 30px;
+}
+
+.box {
+  background-color: tan;
+  width: 400px;
+  height: 440px;
+  border-radius: 10%;
+}
+#characterImg {
+  max-width: 350px;
+}
+
+#logoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#logo {
+  width: 300px;
+  margin-left: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
